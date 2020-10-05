@@ -3,13 +3,14 @@ import './App.css';
 import Navbar from './components/pages/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Particles from 'react-particles-js';
+import  Home from './components/pages/HomePage/Home'
 
 function App() {
   return (
       <Router>
         <Navbar/>
         <Switch>
-          <Router path="/"/>
+          <Route path="/" exact component={Home}/>
         </Switch>
       </Router>
   );
