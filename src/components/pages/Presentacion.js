@@ -10,6 +10,12 @@ function Presentacion({
     lightTextDesc,
     headLine,
     descripcion,
+    presentacion,
+    descripcion1,
+    descripcion2,
+    descripcion3,
+    descripcion4,
+    descripcion5,
     buttonLabel,
     imgTop,
     imgBottom,
@@ -28,7 +34,21 @@ function Presentacion({
                                 <img src={imgTop} alt={alt} className="home__img-top" />
                             </div>
                             <h1 className={lightText ? 'heading' : 'geading dark'}>{headLine}</h1>
-                            <p className={lightTextDesc ? 'home__presentacion-subtitle' : 'home__presentacion-subtitle dark'}>{descripcion}</p>
+                            {/* <p className={lightTextDesc ? 'home__presentacion-subtitle' : 'home__presentacion-subtitle dark'}>{descripcion}</p> */}
+                            <section className="col mainHero">
+                                <div className="box">
+                                    <ul>
+                                        <li className="item-2">{descripcion1}</li>
+                                        <li className="item-3">{descripcion3}</li>
+                                        <li className="item-4">{descripcion4}</li>
+                                        <li className="item-1">{descripcion1}</li>
+                                        <li className="item-2">{descripcion2}</li>
+                                        <li className="item-3">{descripcion3}</li>
+                                        <li className="item-4">{descripcion5}</li>
+                                        <li className="item-1">{descripcion1}</li>
+                                    </ul>
+                                </div>
+                            </section>
                             <div className="home__img-wrapper">
                                 <img src={imgBottom} alt={alt} className="home__img-bottom" />
                             </div>
