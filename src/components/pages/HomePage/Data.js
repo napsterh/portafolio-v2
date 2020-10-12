@@ -10,5 +10,5 @@ export const homeObjOne = {
     img: 'images/rusia.jpg',
     imgTop: 'images/top.png',
     imgBottom: 'images/bottom.png',
-    alt: 'Tarjeta de credito'
+    alt: 'Imagen de presentación'
 }
