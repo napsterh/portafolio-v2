@@ -6,6 +6,9 @@ function Home() {
     return (
         <div>
             <Presentacion {...homeObjOne}/>
+            <Presentacion {...homeObjOne}/>
+            <Presentacion {...homeObjOne}/>
+            <Presentacion {...homeObjOne}/>
         </div>
     )
 }
